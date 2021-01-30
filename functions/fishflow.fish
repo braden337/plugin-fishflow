@@ -1,3 +1,3 @@
 function fishflow -d "My package"
-  # Package entry-point
+    # Package entry-point
 end
