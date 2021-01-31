@@ -16,14 +16,6 @@
 $ omf install https://github.com/braden337/plugin-fishflow
 ```
 
-
-## Usage
-
-```fish
-$ fishflow
-```
-
-
 # License
 
 [MIT][mit] © [Braden][author] et [al][contributors]
