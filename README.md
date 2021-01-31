@@ -13,7 +13,7 @@
 ## Install
 
 ```fish
-$ omf install fishflow
+$ omf install https://github.com/braden337/plugin-fishflow
 ```
 
 
