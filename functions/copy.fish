@@ -5,6 +5,8 @@ function copy
         pbcopy
     else if type -q xclip
         xclip -sel clip
+    else if type -q clip.exe
+        clip.exe
     else
         echo "Cannot copy to clipboard"
     end
