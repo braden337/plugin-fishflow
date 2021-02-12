@@ -7,5 +7,8 @@ function open -a place
         explorer.exe (string trim -c \/ $place) 
     else
         echo "Unable to open $place"
+        return 1
     end
+
+    return 0
 end
