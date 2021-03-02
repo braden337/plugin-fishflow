@@ -3,7 +3,7 @@
 function open -a place
     if test -e $place
         if type -qf open
-            open $place
+            /usr/bin/open $place
         else if type -qf explorer.exe
             explorer.exe (string trim -c \/ $place)
         else
