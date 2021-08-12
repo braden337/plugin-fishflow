@@ -9,6 +9,9 @@
 
 <br/>
 
+## About
+
+These are some convenience functions that I find useful and will continue to add.
 
 ## Install
 
