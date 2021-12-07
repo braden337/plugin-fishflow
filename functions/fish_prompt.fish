@@ -15,8 +15,8 @@ function fish_prompt
     set -l fish "><((`>"
     set -l ahead "↑"
     set -l behind "↓"
-    set -l diverged "⥄ "
-    set -l dirty "⨯"
+    set -l diverged "⇌ "
+    set -l dirty "✗"
     set -l none "◦"
 
     set -l normal_color (set_color normal)
