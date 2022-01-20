@@ -39,7 +39,7 @@ function fish_prompt
         end
 
         echo -n -s " " $directory_color $cwd $normal_color
-        echo -n -s " on " $repository_color (git_branch_name) $normal_color " "
+        echo -n -s " on " $repository_color (git branch | grep '^*' | grep -o '[a-zA-Z0-9]\+-[0-9]\+' || git_branch_name) $normal_color " "
 
         if git_is_touched
             echo -n -s $dirty
