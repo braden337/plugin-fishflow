@@ -39,7 +39,7 @@ function fish_prompt
         end
 
         echo -n -s " " $directory_color $cwd $normal_color
-        echo -n -s " on " $repository_color (git branch | pcregrep -o1 '^\* \w+\/(\w+-\w+)' || git_branch_name) $normal_color " "
+        echo -n -s " on " $repository_color (git branch | pcregrep -o1 '^\*.+(\d{3}+).+$' || git_branch_name) $normal_color " "
 
         if git_is_touched
             echo -n -s $dirty
